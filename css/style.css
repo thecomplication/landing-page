@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+p {
+  margin-bottom: 0.2em; /* Adjust this value to reduce the space */
+}
 
 .header {
  background-color: #1F2937;
@@ -25,5 +31,48 @@ ul {
 
 a {
   text-decoration: none;
+  color: #E5E7Eb;
+}
+
+.leader {
+ display: flex;
+ background-color: #1F2937;
+ font-size: 16px;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.parent {
+  max-width: 500px;
+}
+
+.child {
+  font-size: 48px;
+  font-weight: bolder;
   color: #F9FAF8;
+}
+
+.childer {
+  font-size: 18px;
+  color: #E5E7Eb;
+}
+
+.placeholder {
+  border: 1px solid #1F2937 ;
+  background: #B2BEB5;
+  padding: 100px;
+  margin-bottom: 75px;
+  color: #F9FAF8;
+}
+
+.butto {
+  margin-bottom: 150px;
+  margin-top: 10px;
+  background: #3882F6;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid royalblue;
+  color: white;
+  font-weight: bold;
 }
